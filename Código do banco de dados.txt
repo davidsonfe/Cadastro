@@ -1,0 +1,25 @@
+//criar o banco de dados
+
+create database db_senhas;
+
+//informar o banco de dados que será utilizado
+
+use db_senhas;
+
+//criar a tabela que ira receber os dados
+
+create table dados_senhas(
+
+id int	auto_increment not null primary key,
+
+usuario varchar(45) not null, 
+
+senha varchar (45) not null );
+
+//inserir dados na tabela criada
+
+insert	into dados_senhas(usuario,senha) values ("digite o usuario", digite a senha-não necessita de aspas caso seja apenas números);
+
+//visualizar os dados inseridos
+
+select *from dados_senhas;
