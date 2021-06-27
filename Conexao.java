@@ -20,7 +20,7 @@ public class Conexao {
 
 			Class.forName("com.mysql.cj.jdbc.Driver"); //atualizado
 
-			return DriverManager.getConnection("jdbc:mysql://localhost/db_senhas","root","Manucravo1");
+			return DriverManager.getConnection("jdbc:mysql://localhost/nomedoseuBD","root","senhadoseuBD");
 
 			
 
