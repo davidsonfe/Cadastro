@@ -1,0 +1,2 @@
+Usuario = eu
+senha = 123
